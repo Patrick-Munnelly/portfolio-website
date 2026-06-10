@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local working notes & session config (not part of the site)
+/Spec.md
+/Employment-History.md
+/.claude/

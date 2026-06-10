@@ -1,0 +1,27 @@
+# Patrick Munnelly
+
+> Patrick Munnelly is a full-stack engineer based in Marbella, Spain, specializing in React, TypeScript, Node.js and Python. 8+ years shipping production software across fintech, ethical AI, SaaS, construction, and insurance. Available now for remote roles across the EU.
+
+Strengths: strict TypeScript; introduces tooling teams keep (E2E testing, feature flags, CI quality gates); AI-assisted engineering (Claude, Cursor) as daily workflow. Education: B.Eng. Software Engineering and B.Eng. Computer Engineering, Technological University of the Shannon.
+
+## Experience
+
+- RavenPack — Senior Frontend Engineer (2024 – April 2026): big data analytics for financial services. Built the payment and subscription flow (React/TypeScript/Material UI); introduced LaunchDarkly feature flags as company standard; drove Playwright (90%+ UI coverage), Jest and RTL test culture with SonarQube; added GitLab CI quality gates; Python AWS Lambda + DynamoDB services and Node/TypeScript BFF endpoints.
+- Trilateral Research — Software Engineer (2021 – 2024): ethical AI (STRIAD platform family). Introduced Cypress E2E testing company-wide with Bitbucket Pipelines integration; delivered across CESIUM, STRIAD and STRIAD:AIR; React/TypeScript/Next.js frontends with Python FastAPI + PostgreSQL on AWS Lambda. STRIAD family won multiple DataIQ Awards, including the 2023 'Data for Society' award for CESIUM.
+- Boyne Park Fitout — Software Engineer (2018 – 2021): one-person product team replacing manual spreadsheets with custom software. React web + Flutter mobile on a unified Node.js/Express backend, MongoDB and AWS S3. Full SDLC ownership; tooling remained in production after leaving.
+- Pramerica — Associate System Developer (2016 – 2018): responsive insurance web apps in a large regulated enterprise. React/Bootstrap frontends, Java/Spring Boot backends, OracleDB via JDBC/Hibernate.
+
+## Side Project
+
+- [Lugh](https://lughonline.com): AI/GEO SEO consulting for hospitality. TypeScript/Hono backend, React/Vite frontend, Supabase, Gemini-powered report generation.
+
+## Links
+
+- [Portfolio](https://www.patrick-munnelly.com): single-page portfolio with experience, skills and contact details
+- [CV (PDF)](https://www.patrick-munnelly.com/Patrick_Munnelly_CV.pdf): full curriculum vitae
+- [LinkedIn](https://www.linkedin.com/in/pmunnelly/): professional profile
+- [GitHub](https://github.com/Patrick-Munnelly): code and projects
+
+## Contact
+
+- [Email patrick.m.munnelly@gmail.com](mailto:patrick.m.munnelly@gmail.com): preferred contact method
