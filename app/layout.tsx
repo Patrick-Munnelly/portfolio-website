@@ -26,10 +26,9 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
-const title =
-  "Patrick Munnelly — Full Stack Engineer (React, Node.js, Python) | Remote Spain/EU";
+const title = "Patrick Munnelly | Full Stack Engineer";
 const description =
-  "Full-stack engineer in Marbella, Spain. 8+ years shipping production React and TypeScript apps on Node.js and Python. Available for EU remote roles.";
+  "Full-stack engineer — React, TypeScript, Node.js, Python. Marbella, Spain · remote across the EU · available now.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -44,11 +43,20 @@ export const metadata: Metadata = {
     title,
     description,
     siteName: site.name,
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: `${site.name} — ${site.jobTitle}`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
+    images: ["/og.png"],
   },
   other: {
     "geo.region": "ES-AN",
