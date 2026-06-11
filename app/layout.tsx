@@ -8,7 +8,7 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
   variable: "--font-display",
-  display: "swap",
+  display: "optional",
   preload: true,
 });
 
@@ -16,14 +16,14 @@ const inter = Inter({
   weight: ["400", "500"],
   subsets: ["latin"],
   variable: "--font-body",
-  display: "swap",
+  display: "optional",
   preload: true,
 });
 
 const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains",
-  display: "swap",
+  display: "optional",
 });
 
 const title = "Patrick Munnelly | Full Stack Engineer";
