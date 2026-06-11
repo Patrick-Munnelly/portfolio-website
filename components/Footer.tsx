@@ -7,9 +7,6 @@ export default function Footer() {
         <p className="font-display text-sm font-bold tracking-wide text-forest">
           {site.name} © {new Date().getFullYear()}
         </p>
-        <p className="font-mono text-[11px] uppercase tracking-[0.15em] text-ink/75">
-          Built with Next.js
-        </p>
       </div>
     </footer>
   );
