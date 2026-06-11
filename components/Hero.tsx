@@ -13,10 +13,10 @@ export default function Hero() {
         <div className="mx-auto mt-1.5 h-px w-12 bg-gold" aria-hidden="true" />
         <p className="mt-8 font-body text-xl leading-relaxed text-ink sm:text-2xl">
           {site.taglineParts.map((part, index) => (
-            <span key={part} className="inline-block">
+            <span key={part} className="block sm:inline-block">
               {index > 0 && (
                 <span
-                  className="mx-3 inline-block h-4 w-px bg-gold align-middle sm:mx-4"
+                  className="hidden h-4 w-px bg-gold align-middle sm:mx-4 sm:inline-block"
                   aria-hidden="true"
                 />
               )}
@@ -27,7 +27,7 @@ export default function Hero() {
         <p className="mt-5 font-mono text-xs uppercase tracking-[0.2em] text-forest sm:text-sm">
           {site.subline}
         </p>
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
+        <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href="#experience"
             className="rounded-sm bg-forest px-7 py-3 font-mono text-xs uppercase tracking-[0.18em] text-cream transition-colors duration-base hover:bg-ink"
