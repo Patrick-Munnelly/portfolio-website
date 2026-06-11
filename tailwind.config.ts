@@ -27,8 +27,8 @@ const config: Config = {
         rust: "#8b3a2a",
       },
       fontFamily: {
-        display: ["var(--font-playfair)", "Georgia", "serif"],
-        body: ["var(--font-crimson)", "Georgia", "serif"],
+        display: ["var(--font-display)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
         mono: ["var(--font-jetbrains)", "Courier New", "monospace"],
       },
       transitionDuration: {

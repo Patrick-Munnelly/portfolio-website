@@ -1,19 +1,20 @@
 import type { Metadata } from "next";
-import { Crimson_Text, JetBrains_Mono, Playfair_Display } from "next/font/google";
+import { Inter, JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import AnalyticsLoader from "@/components/AnalyticsLoader";
 import { SITE_URL, site } from "@/content/site";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const jakarta = Plus_Jakarta_Sans({
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-display",
   display: "swap",
 });
 
-const crimson = Crimson_Text({
-  weight: ["400", "600"],
+const inter = Inter({
+  weight: ["400", "500"],
   subsets: ["latin"],
-  variable: "--font-crimson",
+  variable: "--font-body",
   display: "swap",
 });
 
@@ -100,7 +101,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${crimson.variable} ${jetbrains.variable}`}
+      className={`${jakarta.variable} ${inter.variable} ${jetbrains.variable}`}
     >
       <body className="bg-cream font-body text-ink antialiased">
         <script dangerouslySetInnerHTML={{ __html: consentDefaultScript }} />

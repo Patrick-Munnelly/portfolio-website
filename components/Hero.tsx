@@ -45,6 +45,8 @@ export default function Hero() {
           <TrackedLink
             href={site.cvPath}
             event={GA_EVENTS.cvDownload}
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-mono text-xs uppercase tracking-[0.18em] text-forest underline decoration-gold decoration-1 underline-offset-4 transition-colors duration-base hover:text-slate-lugh"
           >
             Download CV (PDF)

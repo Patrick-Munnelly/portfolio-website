@@ -17,7 +17,7 @@ export default function ExperienceCard({ role }: { role: Role }) {
           <time dateTime={role.endIso}>{role.endLabel}</time>
         </p>
       </div>
-      <p className="mt-1 font-body text-lg font-semibold text-ink">
+      <p className="mt-1 font-body text-lg font-medium text-ink">
         {role.title}
       </p>
       <p className="mt-2 font-body text-base leading-relaxed text-ink/75">

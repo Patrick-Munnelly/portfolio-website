@@ -53,6 +53,8 @@ export default function Contact() {
           <TrackedLink
             href={site.cvPath}
             event={GA_EVENTS.cvDownload}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block rounded-sm bg-forest px-7 py-3 font-mono text-xs uppercase tracking-[0.18em] text-cream transition-colors duration-base hover:bg-ink"
           >
             Download CV (PDF)
