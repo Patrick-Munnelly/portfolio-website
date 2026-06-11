@@ -9,6 +9,7 @@ const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
+  preload: true,
 });
 
 const inter = Inter({
@@ -16,6 +17,7 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
+  preload: true,
 });
 
 const jetbrains = JetBrains_Mono({
